@@ -1,0 +1,46 @@
+.hero {
+  position: relative;
+  height: 80vh;
+  background: url('https://timesproweb-static-backend-prod.s3.ap-south-1.amazonaws.com/IIT_Guwahati_banner_3beef0acc3.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* 60% visible image (40% black overlay) */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.about {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.about p {
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8;
+}
